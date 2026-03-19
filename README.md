@@ -13,6 +13,7 @@ Projekat se sastoji iz sledećih delova:
 
   🔹 Klijentska aplikacija
   Desktop aplikacija (Swing) koja omogućava rad operatera – upravljanje događajima i prodaju ulaznica.
+  
   👉 https://github.com/USERNAME/client-repo-link
   
   🔹 Serverska aplikacija
