@@ -71,7 +71,7 @@ obrada QR kodova
 Sistem je zasnovan na klijentsko–serverskoj arhitekturi:
 
 klijent omogućava interakciju sa korisnikom (GUI)
-
+  
 server obrađuje poslovnu logiku i rad sa bazom
 
 zajednički modul obezbeđuje razmenu podataka između komponenti
