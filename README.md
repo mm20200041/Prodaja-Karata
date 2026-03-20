@@ -1,92 +1,93 @@
-Sistem za prodaju i validaciju ulaznica za sportske događaje 🎟️
+# Sistem za prodaju i validaciju ulaznica za sportske događaje 🎟️
 
 
 Ovaj projekat predstavlja Java klijentsko–serverski sistem za prodaju i kontrolu ulaznica za sportske događaje.
 Sistem simulira realan proces prodaje karata, generisanja ulaznica i njihove validacije pomoću QR kodova.
-
 Aplikacija je podeljena na više komponenti kako bi se postigla bolja organizacija i razdvajanje odgovornosti.
+<br>&nbsp;
 
-🧩 Struktura projekta
+## 🧩 Struktura projekta
 
 Ovaj repozitorijum služi kao centralno mesto za dokumentaciju i pregled celog sistema.
-Projekat se sastoji iz sledećih delova:
+Projekat se sastoji iz sledećih delova: 
+<br>&nbsp;
 
 🔹 Klijentska aplikacija
 
 Desktop aplikacija (Swing) koja omogućava rad operatera – upravljanje događajima i prodaju ulaznica.
 
-👉 https://github.com/USERNAME/client-repo-link
-
-
+👉 https://github.com/mm20200041/Prodaja-Karata-Klijent
+<br>&nbsp;
+ 
 🔹 Serverska aplikacija
 
 Zadužena za poslovnu logiku, rad sa bazom podataka i komunikaciju sa klijentom.
 
-👉 https://github.com/USERNAME/server-repo-link
-
+👉 https://github.com/mm20200041/Prodaja-Karata-Server
+<br>&nbsp;
 
 🔹 Zajednički modul
 
 Sadrži zajedničke klase (modeli, komunikacioni objekti, pomoćne klase) koje koriste i klijent i server.
 
-👉 https://github.com/USERNAME/common-repo-link
+👉 https://github.com/mm20200041/Prodaja-Karata-Zajednicki
+<br>&nbsp;
 
+## 🚀 Funkcionalnosti
 
-🚀 Funkcionalnosti
+- Evidencija utakmica, hala, sektora, redova i sedišta
 
-evidencija utakmica, hala, sektora, redova i sedišta
+- Automatsko generisanje ulaznica za svaku utakmicu
 
-automatsko generisanje ulaznica za svaku utakmicu
+- Kreiranje računa sa više stavki
 
-kreiranje računa sa više stavki
+- Generisanje PDF ulaznica sa QR kodovima
 
-generisanje PDF ulaznica sa QR kodovima
+- Slanje ulaznica kupcu putem email-a
 
-slanje ulaznica kupcu putem email-a
+- Validacija ulaznica pomoću QR koda
 
-validacija ulaznica pomoću QR koda
+- Sprečavanje ponovne upotrebe već iskorišćenih karata
+<br>&nbsp;
 
-sprečavanje ponovne upotrebe već iskorišćenih karata
+## 🛠 Tehnologije
 
+- Java
 
-🛠 Tehnologije
+- Swing (GUI)
 
-Java
+- JDBC
 
-Swing (GUI)
+- MySQL
 
-JDBC
+- HTTP (klijent–server komunikacija)
 
-MySQL
+- Generisanje PDF dokumenata
 
-HTTP (klijent–server komunikacija)
+- Obrada QR kodova
+<br>&nbsp;
 
-generisanje PDF dokumenata
-
-obrada QR kodova
-
-
-🧱 Arhitektura
+## 🧱 Arhitektura
 
 Sistem je zasnovan na klijentsko–serverskoj arhitekturi:
 
-klijent omogućava interakciju sa korisnikom (GUI)
+- Klijent omogućava interakciju sa korisnikom (GUI)
   
-server obrađuje poslovnu logiku i rad sa bazom
+- Server obrađuje poslovnu logiku i rad sa bazom
 
-zajednički modul obezbeđuje razmenu podataka između komponenti
+- Zajednički modul obezbeđuje razmenu podataka između komponenti
 
-validacija obezbeđuje proveru ulaznica i sprečava zloupotrebu
+- Validacija obezbeđuje proveru ulaznica i sprečava zloupotrebu
+<br>&nbsp;
 
+## 🔮 Moguća unapređenja
 
-🔮 Moguća unapređenja
+- Uvođenje REST API-ja umesto trenutne komunikacije
 
-uvođenje REST API-ja umesto trenutne komunikacije
+- Web aplikacija umesto desktop (Swing) rešenja
 
-web aplikacija umesto desktop (Swing) rešenja
+- Integracija sa platnim sistemima
 
-integracija sa platnim sistemima
+- Mobilna aplikacija za skeniranje ulaznica
 
-mobilna aplikacija za skeniranje ulaznica
-
-autentifikacija korisnika i različite uloge
+- Autentifikacija korisnika i različite uloge
