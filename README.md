@@ -1,93 +1,65 @@
-# Sistem za prodaju i validaciju ulaznica za sportske događaje 🎟️
+# Sports Event Ticket Sales and Validation System 🎟️
 
 
-Ovaj projekat predstavlja Java klijentsko–serverski sistem za prodaju i kontrolu ulaznica za sportske događaje.
-Sistem simulira realan proces prodaje karata, generisanja ulaznica i njihove validacije pomoću QR kodova.
-Aplikacija je podeljena na više komponenti kako bi se postigla bolja organizacija i razdvajanje odgovornosti.
+This project is a Java client-server system for selling and validating tickets for sports events. The system simulates a real ticket sales process, ticket generation, and QR code-based validation. The application is divided into multiple components to achieve better organization and separation of concerns.
 <br>&nbsp;
 
-## 🧩 Struktura projekta
+## 🧩 Project Structure
 
-Ovaj repozitorijum služi kao centralno mesto za dokumentaciju i pregled celog sistema.
-Projekat se sastoji iz sledećih delova: 
+This repository serves as the central documentation and overview of the entire system. The project consists of the following parts:
 <br>&nbsp;
 
-🔹 Klijentska aplikacija
+🔹 Client Application
 
-Desktop aplikacija (Swing) koja omogućava rad operatera – upravljanje događajima i prodaju ulaznica.
+A desktop application (Swing) for operators — managing events and selling tickets.
 
 👉 https://github.com/mm20200041/Prodaja-Karata-Klijent
 <br>&nbsp;
- 
-🔹 Serverska aplikacija
 
-Zadužena za poslovnu logiku, rad sa bazom podataka i komunikaciju sa klijentom.
+🔹 Server Application
+
+Handles business logic, database operations, and client communication.
 
 👉 https://github.com/mm20200041/Prodaja-Karata-Server
 <br>&nbsp;
 
-🔹 Zajednički modul
+🔹 Shared Module
 
-Sadrži zajedničke klase (modeli, komunikacioni objekti, pomoćne klase) koje koriste i klijent i server.
+Contains shared classes (models, communication objects, utility classes) used by both client and server.
 
 👉 https://github.com/mm20200041/Prodaja-Karata-Zajednicki
 <br>&nbsp;
 
-## 🚀 Funkcionalnosti
+## 🚀 Features
 
-- Evidencija utakmica, hala, sektora, redova i sedišta
-
-- Automatsko generisanje ulaznica za svaku utakmicu
-
-- Kreiranje računa sa više stavki
-
-- Generisanje PDF ulaznica sa QR kodovima
-
-- Slanje ulaznica kupcu putem email-a
-
-- Validacija ulaznica pomoću QR koda
-
-- Sprečavanje ponovne upotrebe već iskorišćenih karata
+-Match, hall, sector, row, and seat management
+-Automated ticket generation for each match
+-Invoice creation with multiple ticket items
+-PDF ticket generation with embedded QR codes
+-Email delivery of tickets to customers
+-QR code-based ticket validation
+-Prevention of duplicate ticket usage
 <br>&nbsp;
 
-## 🛠 Tehnologije
+## 🛠 Technologies
 
-- Java
-
-- Swing (GUI)
-
-- JDBC
-
-- MySQL
-
-- HTTP (klijent–server komunikacija)
-
-- Generisanje PDF dokumenata
-
-- Obrada QR kodova
+-Java, Swing (GUI), JDBC, MySQL
+-HTTP (client-server communication)
+-PDF generation, QR code processing
 <br>&nbsp;
 
-## 🧱 Arhitektura
+## 🧱 Architecture
 
-Sistem je zasnovan na klijentsko–serverskoj arhitekturi:
-
-- Klijent omogućava interakciju sa korisnikom (GUI)
-  
-- Server obrađuje poslovnu logiku i rad sa bazom
-
-- Zajednički modul obezbeđuje razmenu podataka između komponenti
-
-- Validacija obezbeđuje proveru ulaznica i sprečava zloupotrebu
+-Client handles user interaction (GUI)
+-Server processes business logic and database operations
+-Shared module enables data exchange between components
+-Validation prevents ticket misuse
 <br>&nbsp;
 
-## 🔮 Moguća unapređenja
+## 🔮 Possible Improvements
 
-- Uvođenje REST API-ja umesto trenutne komunikacije
-
-- Web aplikacija umesto desktop (Swing) rešenja
-
-- Integracija sa platnim sistemima
-
-- Mobilna aplikacija za skeniranje ulaznica
-
-- Autentifikacija korisnika i različite uloge
+-REST API instead of current communication protocol
+-Web application instead of desktop (Swing) solution
+-Payment system integration
+-Mobile application for ticket scanning
+-User authentication and role management
