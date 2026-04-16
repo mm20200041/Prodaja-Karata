@@ -32,49 +32,49 @@ Contains shared classes (models, communication objects, utility classes) used by
 
 ## 🚀 Features
 
--Match, hall, sector, row, and seat management
+- Match, hall, sector, row, and seat management
 
--Automated ticket generation for each match
+- Automated ticket generation for each match
 
--Invoice creation with multiple ticket items
+- Invoice creation with multiple ticket items
 
--PDF ticket generation with embedded QR codes
+- PDF ticket generation with embedded QR codes
 
--Email delivery of tickets to customers
+- Email delivery of tickets to customers
 
--QR code-based ticket validation
+- QR code-based ticket validation
 
--Prevention of duplicate ticket usage
+- Prevention of duplicate ticket usage
 <br>&nbsp;
 
 ## 🛠 Technologies
 
--Java, Swing (GUI), JDBC, MySQL
+- Java, Swing (GUI), JDBC, MySQL
 
--HTTP (client-server communication)
+- HTTP (client-server communication)
 
--PDF generation, QR code processing
+- PDF generation, QR code processing
 <br>&nbsp;
 
 ## 🧱 Architecture
 
--Client handles user interaction (GUI)
+- Client handles user interaction (GUI)
 
--Server processes business logic and database operations
+- Server processes business logic and database operations
 
--Shared module enables data exchange between components
+- Shared module enables data exchange between components
 
--Validation prevents ticket misuse
+- Validation prevents ticket misuse
 <br>&nbsp;
 
 ## 🔮 Possible Improvements
 
--REST API instead of current communication protocol
+- REST API instead of current communication protocol
 
--Web application instead of desktop (Swing) solution
+- Web application instead of desktop (Swing) solution
 
--Payment system integration
+- Payment system integration
 
--Mobile application for ticket scanning
+- Mobile application for ticket scanning
 
--User authentication and role management
+- User authentication and role management
